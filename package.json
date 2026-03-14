@@ -1,0 +1,21 @@
+{
+  "name": "horizon-hiker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the HorizonHiker travel website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "travel",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
